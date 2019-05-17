@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Segurança</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <section class="container-flex">
+        <div class="center-div">
+            <h1>Criptografar</h1>
+            <label for="">CRIPT:</label>
+            <input id="cript" type="text"> <br>
+            <label for="">CHAVE:</label>
+            <input id="chaveC" type="text"> <br>
+            <input type="button" value="Criptografar" onclick="criptografar()">
+        </div>
+
+        <div>
+            <h1>Descriptografar</h1>
+            <label for="">DESCRIP:</label>
+            <input id="decript" type="text"><br>
+            <label for="">CHAVE:</label>
+            <input id="chaveD" type="text"> <br>
+            <input type="button" value="Descriptografar" onclick="descriptografar()">
+        </div>
+    </section>
+
+    <div>
+        <ul>
+            <li id="resp">A resposta é: </li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
